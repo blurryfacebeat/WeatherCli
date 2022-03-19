@@ -1,0 +1,31 @@
+{
+  "name": "weathercli",
+  "version": "1.0.0",
+  "description": "Cli to show current weather",
+  "main": "app.js",
+  "type": "module",
+  "bin": {
+    "weather": "app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:blurryfacebeat/WeatherCli.git"
+  },
+  "keywords": [
+    "weather",
+    "cli"
+  ],
+  "author": "Morozov Vyacheslav <blurryfacebeat@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.6.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1",
+    "figlet": "^1.5.2"
+  }
+}
