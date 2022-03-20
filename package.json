@@ -24,6 +24,7 @@
     "prettier": "^2.6.0"
   },
   "dependencies": {
+    "axios": "^0.26.1",
     "chalk": "^5.0.1",
     "dedent-js": "^1.0.1",
     "figlet": "^1.5.2"
