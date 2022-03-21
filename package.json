@@ -2,13 +2,13 @@
   "name": "weathercli",
   "version": "1.0.0",
   "description": "Cli to show current weather",
-  "main": "app.js",
+  "main": "src/app.js",
   "type": "module",
   "bin": {
-    "weather": "app.js"
+    "weather": "src/app.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/app.js"
   },
   "repository": {
     "type": "git",
